@@ -34,10 +34,8 @@ namespace ExemploExplorando.Models
             for (int count = 0; count < Alunos.Count; count++)
             {
                 //string texto = "N° " + count + " - " + Alunos[count].NomeCompleto; CONCATENAÇÃO   
-                string texto = ($"N° {count} - {Alunos[count].NomeCompleto}"); //INTERPOLAÇÃO
+                string texto = ($"N° {count + 1} - {Alunos[count].NomeCompleto}"); //INTERPOLAÇÃO
                 Console.WriteLine(texto);
-            // teste git hub
-
             }
         }
     }

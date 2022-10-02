@@ -13,3 +13,18 @@ G:\Meu Drive\DIO\ExemploExplorando\obj\Debug\net6.0\refint\ExemploExplorando.dll
 G:\Meu Drive\DIO\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
 G:\Meu Drive\DIO\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
 G:\Meu Drive\DIO\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.exe
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.deps.json
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.runtimeconfig.json
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.dll
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.pdb
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.AssemblyInfo.cs
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.dll
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\refint\ExemploExplorando.dll
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
+C:\DIO\C#\ExemploExplorando\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
