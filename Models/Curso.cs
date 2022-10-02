@@ -36,6 +36,8 @@ namespace ExemploExplorando.Models
                 //string texto = "N° " + count + " - " + Alunos[count].NomeCompleto; CONCATENAÇÃO   
                 string texto = ($"N° {count} - {Alunos[count].NomeCompleto}"); //INTERPOLAÇÃO
                 Console.WriteLine(texto);
+            // teste git hub
+
             }
         }
     }
