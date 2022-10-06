@@ -1,33 +1,99 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
+//----------------------------------- DICTIONARY --------------------------------------
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("PR", "Paraná");
+estados.Add("RJ", "Rio de Janeiro");
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+
+Console.Write("Digite a chave para remover: ");
+string chaveRemover = Console.ReadLine();
+estados.Remove(chaveRemover);
+// estados["PR"] = "Paraná - valor alterado";
+
+Console.WriteLine("--------------------");
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+
+Console.Write("Digite uma chave para adicionar: ");
+
+string chave = Console.ReadLine();
+
+Console.WriteLine($"Verificando o elemento: {chave}");
+
+if(estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente: {chave}");
+}
+else
+{
+    Console.WriteLine($"Valor não existente. Pode adicionar a chave: {chave}");
+    
+}
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+}
+
+Console.WriteLine("------------------");
+
+Console.WriteLine(estados["RJ"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //---------------------------------- SISTEMA DE PILHA -------------------------------
 // ULTIMO QUE ENTRA, PRIMEIRO QUE SAI
 
 
-Stack<int> pilha = new Stack<int>();
+// Stack<int> pilha = new Stack<int>();
 
-pilha.Push(4);
-pilha.Push(6);
-pilha.Push(8);
-pilha.Push(10);
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
 
 
-foreach(int item in pilha)
-{
-    
-    Console.WriteLine(item);
-    
-}
+// foreach(int item in pilha)
+// {
 
-Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+//     Console.WriteLine(item);
 
-pilha.Push(20);
+// }
 
-foreach(int item in pilha)
-{
-    Console.WriteLine(item);
-}
+// Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
+// pilha.Push(20);
+
+// foreach(int item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
 
 
 
