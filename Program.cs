@@ -1,26 +1,34 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
+//---------------------------------- SISTEMA DE PILHA -------------------------------
+// ULTIMO QUE ENTRA, PRIMEIRO QUE SAI
 
-Queue<int> fila = new Queue<int>();
 
-fila.Enqueue(2);
-fila.Enqueue(4);
-fila.Enqueue(6);
-fila.Enqueue(8);
+Stack<int> pilha = new Stack<int>();
 
-foreach( int item in fila)
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(8);
+pilha.Push(10);
+
+
+foreach(int item in pilha)
+{
+    
+    Console.WriteLine(item);
+    
+}
+
+Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
+pilha.Push(20);
+
+foreach(int item in pilha)
 {
     Console.WriteLine(item);
 }
 
-Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
-fila.Enqueue(10);
-
-foreach (int item in fila)
-{
-    Console.WriteLine(item);
-}
 
 
 
@@ -41,10 +49,31 @@ foreach (int item in fila)
 
 
 
+// ---------------------------------- FILAS ------------------------------
+// PRIMEIRO QUE ENTRA, PRIMEIRO QUE SAI
+
+// Queue<int> fila = new Queue<int>();
+
+// fila.Enqueue(2);
+// fila.Enqueue(4);
+// fila.Enqueue(6);
+// fila.Enqueue(8);
+
+// foreach( int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}");
+// fila.Enqueue(10);
+
+// foreach (int item in fila)
+// {
+//     Console.WriteLine(item);
+// }
 
 
-
-
+//------------------------- EXCEÇÃO ----------------------------------------
 
 
 
@@ -54,7 +83,7 @@ foreach (int item in fila)
 
 
 
-
+//------------------------- LENDO ARQUIVO ------------------------------------
 
 // try
 // {
@@ -103,7 +132,7 @@ foreach (int item in fila)
 
 
 
-
+//------------------------------------ DATE TIME -------------------------------------------
 
 
 
@@ -150,7 +179,7 @@ foreach (int item in fila)
 
 
 
-
+//----------------------------- CULTURE / CURRENCY --------------------------------------------
 
 
 
