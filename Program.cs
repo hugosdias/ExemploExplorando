@@ -1,55 +1,96 @@
 ﻿using ExemploExplorando.Models;
 using System.Globalization;
 
+//----------------------------------- TUPLA -------------------------------
+
+// (int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Hugo", "Sanguino", 1.65M);
+
+// ValueTuple<int, string, string, decimal> outroExemploTupla = (1, "Hugo", "Sanguino", 1.65M);
+
+// var outroExemploTuplaCreate = Tuple.Create(1, "Hugo", "Sanguino", 1.65M);
+
+// Console.WriteLine($"ID: {tupla.Id}");
+// Console.WriteLine($"Nome: {tupla.Nome}");
+// Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+// Console.WriteLine($"Altura: {tupla.Altura}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //----------------------------------- DICTIONARY --------------------------------------
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+// Dictionary<string, string> estados = new Dictionary<string, string>();
 
-estados.Add("SP", "São Paulo");
-estados.Add("PR", "Paraná");
-estados.Add("RJ", "Rio de Janeiro");
+// estados.Add("SP", "São Paulo");
+// estados.Add("PR", "Paraná");
+// estados.Add("RJ", "Rio de Janeiro");
 
-foreach(var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
-}
+// foreach(var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+// }
 
-Console.Write("Digite a chave para remover: ");
-string chaveRemover = Console.ReadLine();
-estados.Remove(chaveRemover);
-// estados["PR"] = "Paraná - valor alterado";
+// Console.Write("Digite a chave para remover: ");
+// string chaveRemover = Console.ReadLine();
+// estados.Remove(chaveRemover);
+// // estados["PR"] = "Paraná - valor alterado";
 
-Console.WriteLine("--------------------");
+// Console.WriteLine("--------------------");
 
-foreach(var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
-}
+// foreach(var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+// }
 
-Console.Write("Digite uma chave para adicionar: ");
+// Console.Write("Digite uma chave para adicionar: ");
 
-string chave = Console.ReadLine();
+// string chave = Console.ReadLine();
 
-Console.WriteLine($"Verificando o elemento: {chave}");
+// Console.WriteLine($"Verificando o elemento: {chave}");
 
-if(estados.ContainsKey(chave))
-{
-    Console.WriteLine($"Valor existente: {chave}");
-}
-else
-{
-    Console.WriteLine($"Valor não existente. Pode adicionar a chave: {chave}");
-    
-}
+// if(estados.ContainsKey(chave))
+// {
+//     Console.WriteLine($"Valor existente: {chave}");
+// }
+// else
+// {
+//     Console.WriteLine($"Valor não existente. Pode adicionar a chave: {chave}");
 
-foreach(var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
-}
+// }
 
-Console.WriteLine("------------------");
+// foreach(var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
+// }
 
-Console.WriteLine(estados["RJ"]);
+// Console.WriteLine("------------------");
+
+// Console.WriteLine(estados["RJ"]);
 
 
 
