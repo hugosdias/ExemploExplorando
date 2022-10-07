@@ -2,7 +2,26 @@
 using System.Globalization;
 
 
+int numero = 21;
 
+bool ehPar = false;
+
+//IF Ternário
+
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par." : "ímpar."));
+
+
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O número {numero} é impar");
+// }
 
 
 
