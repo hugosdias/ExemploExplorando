@@ -11,7 +11,7 @@ namespace ExemploExplorando.Models
         {
 
         }
-        public Pessoa(string nome, string sobrenome)
+        public Pessoa(string nome, string sobrenome) //constructor
         {
             Nome = nome;
             Sobrenome = sobrenome;
