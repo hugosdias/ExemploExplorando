@@ -3,6 +3,44 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
+//------------------ ATRIBUINDO TIPO DE VALOR ----------------------------
+
+int a = 20;
+
+int b = a;
+b = 60;
+
+Console.WriteLine($"Valor de A: {a}");
+Console.WriteLine($"Valor de B: {b}");
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------- TIPO REFERÊNCIA ---------------------------------
+
+// Pessoa p1 = new Pessoa(nome: "Hugo", sobrenome: "Sanguino Dias");
+
+// //Pessoa p2 = new Pessoa(nome: "Gustavo", sobrenome: "Sanguino Dias");
+// Pessoa p2 = p1;
+// p2.Nome = "Vinicius";
+
+// Console.WriteLine($"Nome da pessoa p1: {p1.NomeCompleto}");
+// Console.WriteLine($"Nome da pessoa p2: {p2.NomeCompleto}");
+
+
+
+
+
+
+
 //-------------------------------- METODO EXTENSAO ---------------------------------
 
 // int numero = 20;
@@ -14,13 +52,6 @@ using Newtonsoft.Json;
 
 // string mensagem = "O número " + numero + " " + "é " + (par ? "par" : "ímpar");
 // Console.WriteLine(mensagem);
-
-
-
-
-
-
-
 
 
 
@@ -68,17 +99,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //------------------------------ TIPO ANÔNIMO EM COLEÇÃO -------------------------------------
 
 // string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
@@ -118,26 +138,6 @@ using Newtonsoft.Json;
 //  {
 //      Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
 //  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -207,22 +207,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //----------------------------------------- DESCONSTRUTOR -------------------------------------
 
 // Pessoa p1 = new Pessoa("Hugo", "Sanguino");
@@ -230,10 +214,6 @@ using Newtonsoft.Json;
 // (string nome, string sobrenome) = p1;
 
 // Console.WriteLine($"{nome} {sobrenome}");
-
-
-
-
 
 
 
@@ -259,22 +239,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //----------------------------------- TUPLA -------------------------------
 
 // (int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Hugo", "Sanguino", 1.65M);
@@ -287,30 +251,6 @@ using Newtonsoft.Json;
 // Console.WriteLine($"Nome: {tupla.Nome}");
 // Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
 // Console.WriteLine($"Altura: {tupla.Altura}");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -370,18 +310,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //---------------------------------- SISTEMA DE PILHA -------------------------------
 // ULTIMO QUE ENTRA, PRIMEIRO QUE SAI
 
@@ -415,21 +343,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ---------------------------------- FILAS ------------------------------
 // PRIMEIRO QUE ENTRA, PRIMEIRO QUE SAI
 
@@ -455,9 +368,6 @@ using Newtonsoft.Json;
 
 
 //------------------------- EXCEÇÃO ----------------------------------------
-
-
-
 
 
 // new ExemploExcecao().Metodo1();
@@ -502,22 +412,7 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 //------------------------------------ DATE TIME -------------------------------------------
-
-
-
-
 
 
 
@@ -554,12 +449,6 @@ using Newtonsoft.Json;
 
 
 
-
-
-
-
-
-
 //----------------------------- CULTURE / CURRENCY --------------------------------------------
 
 
@@ -581,14 +470,6 @@ using Newtonsoft.Json;
 // int numero = 123456;
 
 // Console.WriteLine(numero.ToString("##-##-##"));
-
-
-
-
-
-
-
-
 
 
 
