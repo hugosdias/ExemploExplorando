@@ -2,6 +2,35 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
+
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("Teste");
+
+Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //--------------------------------------- VARIAVEL DINAMICA -----------------------------------------
 
 // dynamic variavelDinamica = 4;
