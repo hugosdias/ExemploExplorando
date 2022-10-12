@@ -2,35 +2,100 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
+dynamic variavelDinamica = 4;
+
+Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//------------------------------ TIPO ANÔNIMO EM COLEÇÃO -------------------------------------
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+// var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+// foreach(var venda in listaAnonimo)
+// {
+//     Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+// }
+
+//--------------------------- TIPO ANÔNIMO ---------------------------------------------
+
+// var tipoAnonimo = new {Nome = "Hugo", Sobrenome = "Sanguino Dias", Altura = 1.65 };
+
+// Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+// Console.WriteLine("Sobrenome: " + tipoAnonimo.Sobrenome);
+// Console.WriteLine("Altura: " + tipoAnonimo.Altura);
+
+
+
+
+
+
+
+
+
+// bool? desejaReceberEmail = null;
+
+// if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+//  {
+//     Console.WriteLine("O usuário optou por receber e-mail.");
+//  }
+//  else
+//  {
+//      Console.WriteLine("O usuário não respondeu ou optou por não receber e-mail.");
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //--------------------------------DESSERIALIZAÇÃO ------------------------------------------
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+// List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
 
-foreach (Venda venda in listaVenda)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH: mm")}");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// foreach (Venda venda in listaVenda)
+// {
+//      Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}" +
+//                         $"{(venda.Desconto.HasValue ? $" Desconto de: {venda.Desconto}" : " Item sem desconto")}");
+// }
 
 
 
@@ -52,24 +117,6 @@ foreach (Venda venda in listaVenda)
 // File.WriteAllText("Arquivos/vendas.json", serializado);
 
 // Console.WriteLine(serializado);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
