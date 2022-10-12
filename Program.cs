@@ -1,10 +1,21 @@
-﻿using ExemploExplorando.Models;
+using ExemploExplorando.Models;
 using System.Globalization;
 using Newtonsoft.Json;
 
 dynamic variavelDinamica = 4;
 
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH: mm")}");
+}
+
 Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor: {variavelDinamica}");
+
 
 
 
