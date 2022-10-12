@@ -3,15 +3,17 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
-int numero = 20;
-bool par = false;
+//-------------------------------- METODO EXTENSAO ---------------------------------
 
-//IF Ternário
-//par = numero % 2 == 0;
-par = numero.EhPar();
+// int numero = 20;
+// bool par = false;
 
-string mensagem = "O número " + numero + " " + "é " + (par ? "par" : "ímpar");
-Console.WriteLine(mensagem);
+// //IF Ternário
+// //par = numero % 2 == 0;
+// par = numero.EhPar();
+
+// string mensagem = "O número " + numero + " " + "é " + (par ? "par" : "ímpar");
+// Console.WriteLine(mensagem);
 
 
 
